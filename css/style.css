@@ -1,0 +1,90 @@
+h1 {
+  padding: 0px;
+}
+
+body {
+  font-size: 32px;
+  text-align: center;
+  background-color: #b7fcff;
+}
+
+#weathercard {
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  padding: 10px 0px 10px 0px;
+  margin: 0px auto;
+  background-color: white;
+  max-width: 410px;
+  width: 100%;
+}
+
+#icon {
+  height: 75px;
+  width: 75px;
+}
+
+#tempF {}
+
+#tempC {
+  display: none;
+}
+
+#forecast {
+  font-size: 18px;
+  padding: 10px 10px 5px 10px;
+}
+
+#forecastMet {
+  font-size: 18px;
+  display: none;
+  padding: 10px 10px 5px 10px;
+}
+
+#tempImp {
+  padding: 0px 0px 0px 0px;
+}
+
+#tempMet {
+  padding: 0px 0px 0px 0px;
+}
+
+#buttonF {
+  background-color: white;
+  margin: 0px 0px 10px 0px;
+   padding: 10px;
+  width: 200px;
+  border-style: none;
+}
+
+#buttonC {
+  background-color: white;
+  margin: 0px 0px 0px 0px;
+   padding: 10px;
+  width: 200px;
+  border-style: none;
+}
+
+#buttonF:focus {
+  background-color: #c4c4c4;
+  outline: none;
+}
+
+#buttonC:focus {
+  background-color: #c4c4c4;
+  outline: none
+}
+
+@media only screen and (max-width: 423px) {
+  h1{
+    margin: 0px;
+  }
+  #buttonF { 
+    margin: 0px;
+    width: 100%;
+  }
+  #buttonC {
+    margin: 0px;
+    width: 100%;
+  }
+}
