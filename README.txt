@@ -1,3 +1,4 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/gianpaneda/pen/YpexPx.
+Made with the Weather Undergound API (https://www.wunderground.com/weather/api/)
 
- 
+http://codepen.io/gianpaneda/pen/YpexPx
+
